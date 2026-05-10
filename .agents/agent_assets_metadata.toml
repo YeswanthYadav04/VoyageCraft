@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "YT4_D41Cu6vNN_x874_8p"
+uri = "file://artifacts/voyagecraft/src/assets/paris.png"
+type = "image"
+title = "Paris destination view"
+
+[[generated]]
+id = "7N1wbnG-JopYvaKEjamg-"
+uri = "file://artifacts/voyagecraft/src/assets/tokyo.png"
+type = "image"
+title = "Tokyo destination view"
+
+[[generated]]
+id = "7-2ldTpI6B4803ms1XljZ"
+uri = "file://artifacts/voyagecraft/src/assets/sydney.png"
+type = "image"
+title = "Sydney destination view"
+
+[[generated]]
+id = "8xxjcx2elVV2vuLJFRWHd"
+uri = "file://artifacts/voyagecraft/src/assets/bali.png"
+type = "image"
+title = "Bali destination view"
+
+[[generated]]
+id = "c1xo63uJOR9dcF-gRWEjd"
+uri = "file://artifacts/voyagecraft/src/assets/newyork.png"
+type = "image"
+title = "New York destination view"
+
+[[generated]]
+id = "w_NLdIYaqOYOfhQlOg2Gt"
+uri = "file://artifacts/voyagecraft/src/assets/santorini.png"
+type = "image"
+title = "Santorini destination view"

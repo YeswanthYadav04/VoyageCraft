@@ -1,0 +1,238 @@
+Create a modern AI-powered travel planner website called “VoyageCraft” using Flask, HTML, Tailwind CSS, and JavaScript.
+
+The website should look PREMIUM, MODERN, MINIMAL, and similar to high-end SaaS travel planner websites like TripBuddy AI.
+
+IMPORTANT:
+This is only a frontend prototype for a hackathon submission.
+Do NOT create database logic or authentication backend.
+Use static/mock data only.
+Focus heavily on UI/UX, animations, responsiveness, and smooth interactions.
+
+-----------------------------------
+TECH STACK
+-----------------------------------
+Backend:
+- Python Flask
+
+Frontend:
+- HTML
+- Tailwind CSS
+- Vanilla JavaScript
+
+Libraries:
+- AOS animations
+- Chart.js
+- Font Awesome
+
+-----------------------------------
+PROJECT STRUCTURE
+-----------------------------------
+
+Create this structure:
+
+VoyageCraft/
+│
+├── app.py
+├── templates/
+│   ├── index.html
+│   ├── create_trip.html
+│   ├── itinerary.html
+│   ├── dashboard.html
+│   └── profile.html
+│
+├── static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+
+-----------------------------------
+DESIGN STYLE
+-----------------------------------
+
+Use:
+- Glassmorphism
+- Soft shadows
+- Rounded cards
+- Purple + Indigo + White theme
+- Modern gradients
+- Clean typography
+- Smooth hover animations
+- Minimal aesthetic
+
+Primary colors:
+- Purple (#6D28D9)
+- Indigo (#4F46E5)
+- White
+- Light Gray backgrounds
+
+Fonts:
+- Poppins
+- Inter
+
+Animations:
+- Fade-up scroll animations
+- Floating hero elements
+- Smooth transitions
+- Card hover scaling
+- Button glow effects
+
+-----------------------------------
+LANDING PAGE
+-----------------------------------
+
+Create a stunning hero section exactly inspired by the video.
+
+Hero section:
+- Large bold heading:
+  “Design Your Dream Getaway in Seconds”
+- Subheading about AI travel planning
+- Purple CTA button:
+  “Start Planning”
+- Gradient background with blur effects
+- Floating decorative circles/shapes
+- Navbar with logo “VoyageCraft”
+- Login button
+- Create Trip button
+
+Below hero:
+- 3 feature cards:
+  - Smart Routes
+  - Budget Control
+  - Personalized Trips
+
+Add:
+- Smooth animations
+- Responsive layout
+- Hero image or travel illustration
+
+-----------------------------------
+CREATE TRIP PAGE
+-----------------------------------
+
+Create a modern multi-step AI trip form.
+
+Step 1:
+- Destination input
+- Number of days
+- Budget selection
+
+Step 2:
+- Travel companions:
+  - Solo
+  - Couple
+  - Family
+  - Friends
+
+Step 3:
+- Loading screen:
+  “Curating your AI travel experience…”
+
+Use:
+- Progress indicator
+- Beautiful cards
+- Smooth transitions
+- Animated loading spinner
+
+-----------------------------------
+ITINERARY PAGE
+-----------------------------------
+
+This page should be the BEST page.
+
+Create:
+- Large Sydney hero banner image
+- Trip title overlay
+- Daily itinerary cards
+
+Layout:
+LEFT:
+- Day-wise timeline
+- Activities with timings
+- Images
+- Notes
+
+RIGHT:
+- Hotel recommendation card
+- Budget overview card
+- Trip details card
+
+Use:
+- Elegant white cards
+- Purple accents
+- Timeline connectors
+- Interactive hover effects
+
+Mock itinerary:
+Day 1:
+- Sydney Opera House
+- Harbour Bridge
+- Bondi Beach
+
+Day 2:
+- Blue Mountains
+- Ferry Ride
+- Night Cruise
+
+-----------------------------------
+DASHBOARD PAGE
+-----------------------------------
+
+Create:
+- Welcome section
+- Recent trips
+- Upcoming adventures
+- Budget analytics
+
+Use fake data:
+- Paris
+- Tokyo
+- Sydney
+- Goa
+
+Include:
+- Beautiful travel cards
+- Progress bars
+- Small charts
+- Statistics cards
+
+-----------------------------------
+PROFILE PAGE
+-----------------------------------
+
+Create:
+- User avatar
+- Saved trips
+- Preferences
+- Account settings cards
+
+-----------------------------------
+ANIMATIONS
+-----------------------------------
+
+Add:
+- AOS scroll animations
+- Smooth page transitions
+- Button hover glow
+- Card floating effects
+- Fade-in sections
+
+-----------------------------------
+RESPONSIVENESS
+-----------------------------------
+
+The website MUST:
+- Work on mobile
+- Work on tablet
+- Work on desktop
+
+-----------------------------------
+IMPORTANT
+-----------------------------------
+
+Use static mock data only.
+No database needed.
+No backend logic required except Flask routing.
+
+The final result should look like a premium AI travel planner SaaS product suitable for hackathon prototype submission.
+
+Make the UI extremely polished and visually impressive.
