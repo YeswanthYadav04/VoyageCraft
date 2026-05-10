@@ -1,0 +1,270 @@
+Upgrade the existing VoyageCraft project into a dynamic AI travel planner with WORKING backend functionality using Python Flask.
+
+IMPORTANT:
+Currently the project only shows a static Sydney 2-day premium itinerary regardless of user selections.
+
+Fix this completely.
+
+The application must dynamically change trip plans, destinations, budgets, group types, and itinerary content based on user input.
+
+Also implement FULLY WORKING authentication using Flask backend + Google Login.
+
+Maintain the SAME premium UI/UX, animations, glassmorphism, gradients, and responsive design already existing in the project.
+
+-----------------------------------
+BACKEND REQUIREMENTS
+-----------------------------------
+
+Create a Flask backend for:
+- Authentication
+- Dynamic itinerary generation
+- Form processing
+- User sessions
+- API routes
+
+Use:
+- Flask
+- Flask-CORS
+- Flask-Login
+- Firebase Admin SDK OR Flask Google OAuth
+- SQLite for prototype database
+
+Project structure:
+
+backend/
+│
+├── app.py
+├── routes/
+├── auth/
+├── models/
+├── database/
+├── static/
+└── templates/
+
+Frontend should communicate with Flask APIs.
+
+-----------------------------------
+DYNAMIC TRIP GENERATION
+-----------------------------------
+
+Currently:
+- Only Sydney
+- Only 2 days
+- Only premium trip
+
+Fix this.
+
+Generate DIFFERENT itineraries dynamically depending on:
+
+1. Destination
+2. Number of Days
+3. Budget Type
+4. Travel Group Type
+
+-----------------------------------
+SUPPORTED DESTINATIONS
+-----------------------------------
+
+Add at least:
+
+- Sydney
+- Paris
+- Tokyo
+- Bali
+- Goa
+- New York
+- Dubai
+- Switzerland
+
+Each destination should have:
+- Unique images
+- Unique activities
+- Unique hotels
+- Unique budget ranges
+- Different itinerary timeline
+
+-----------------------------------
+GROUP TYPES
+-----------------------------------
+
+Support:
+- Solo
+- Couple
+- Family
+- Friends
+
+Behavior should change dynamically.
+
+Examples:
+
+COUPLE:
+- Romantic dinners
+- Sunset cruises
+- Luxury stays
+
+FAMILY:
+- 4-5 people
+- Kid-friendly attractions
+- Larger hotels
+- Family activities
+
+FRIENDS:
+- Adventure
+- Nightlife
+- Group activities
+
+SOLO:
+- Budget hostels
+- Exploration activities
+- Backpacking style
+
+-----------------------------------
+BUDGET TYPES
+-----------------------------------
+
+Support:
+- Budget Friendly
+- Standard
+- Premium
+- Luxury
+
+Changes required:
+- Hotel recommendations
+- Daily cost
+- Transport style
+- Activities
+- Restaurant suggestions
+
+Example:
+
+Budget Friendly:
+- Hostels
+- Public transport
+- Cheap activities
+
+Premium:
+- Luxury hotels
+- Fine dining
+- Private tours
+
+-----------------------------------
+DAYS SHOULD CHANGE DYNAMICALLY
+-----------------------------------
+
+If user selects:
+- 2 days → short itinerary
+- 5 days → larger itinerary
+- 7 days → complete itinerary
+
+Generate day cards dynamically.
+
+-----------------------------------
+ITINERARY PAGE
+-----------------------------------
+
+Create dynamic rendering for:
+- Destination hero image
+- Daily timeline
+- Activities
+- Budget overview
+- Hotel recommendations
+- Transport recommendations
+
+Each destination should feel unique.
+
+-----------------------------------
+WORKING AUTHENTICATION
+-----------------------------------
+
+Implement REAL backend authentication.
+
+Use:
+- Flask backend
+- SQLite database
+- Flask-Login
+- Password hashing
+
+Features:
+- Signup
+- Login
+- Logout
+- Session persistence
+- Protected routes
+- User dashboard
+
+-----------------------------------
+GOOGLE LOGIN
+-----------------------------------
+
+Implement REAL Google Authentication.
+
+Use:
+- Firebase Authentication OR Google OAuth
+- Flask backend validation
+
+Requirements:
+- Continue with Google button
+- Popup login
+- Store user info
+- Redirect to dashboard
+- Keep user session active
+
+-----------------------------------
+DATABASE
+-----------------------------------
+
+Use SQLite.
+
+Store:
+- Users
+- Trips
+- Preferences
+- Itinerary data
+
+-----------------------------------
+FRONTEND-BACKEND CONNECTION
+-----------------------------------
+
+Connect frontend forms to Flask APIs.
+
+When user submits trip form:
+- Send request to Flask backend
+- Generate dynamic itinerary
+- Return JSON data
+- Render dynamically on frontend
+
+-----------------------------------
+ANIMATIONS
+-----------------------------------
+
+Keep:
+- Glassmorphism
+- Purple-indigo gradients
+- Smooth transitions
+- Floating cards
+- Scroll animations
+- Premium SaaS feel
+
+-----------------------------------
+IMPORTANT
+-----------------------------------
+
+The website should NO LONGER feel static.
+
+Changing:
+- destination
+- group type
+- budget
+- duration
+
+must visibly change:
+- itinerary
+- cards
+- images
+- costs
+- hotels
+- activities
+
+The final result should feel like a REAL intelligent travel planner platform.
+
+Keep everything visually premium and hackathon-ready.

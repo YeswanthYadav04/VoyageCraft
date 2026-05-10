@@ -36,3 +36,21 @@ id = "w_NLdIYaqOYOfhQlOg2Gt"
 uri = "file://artifacts/voyagecraft/src/assets/santorini.png"
 type = "image"
 title = "Santorini destination view"
+
+[[generated]]
+id = "c4-fSPdjUwMD1dOVhdQ-_"
+uri = "file://artifacts/voyagecraft/src/assets/dubai.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "C35iFlI8FbGZieohcm6-H"
+uri = "file://artifacts/voyagecraft/src/assets/switzerland.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "I-Mqe02r25DFLjhYz8lth"
+uri = "file://artifacts/voyagecraft/src/assets/goa.png"
+type = "image"
+title = "generated_image"
